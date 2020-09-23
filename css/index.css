@@ -63,7 +63,7 @@ body {
 
 .navigation a {
     width:10%;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 18px;
     color: #ffffff;
     margin-left: 5px;
@@ -130,7 +130,7 @@ body {
 }
 
 .we__text {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 14px;
     color: gray;
     padding-left: 10px;
@@ -170,7 +170,7 @@ body {
 .basket-img__ammount {
     padding-top: 5px;
     color: orange;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 14px;
 }
 
@@ -184,7 +184,7 @@ body {
 .basket-total_sum {
     padding-top: 5px;
     color: gray;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 14px;
 }
 
@@ -198,7 +198,7 @@ body {
 .basket-total_rub {
     margin-top: -5px;
     color: black;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 14px;
 }
 
@@ -293,7 +293,7 @@ input {
 }
 
 .dropdown-positions__span {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: #777777;
 
@@ -301,7 +301,7 @@ input {
 }
 
 .dropdown-positions li {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: black;
     line-height: 30px;
@@ -455,7 +455,7 @@ padding-left:30px;
 .categories__knop {
     background-color: white;
     width: 100%;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: gray;
     padding: 16px;
     padding-left: 5px;
@@ -498,7 +498,7 @@ padding-left:30px;
 }
 
 .dropdown-menu a {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 17px;
     text-decoration: none;
     color: gray;
@@ -518,7 +518,9 @@ padding-left:30px;
 }
 
 
-
+.equipment {
+    display: none;
+}
 .first-level {
     display: flex;
     width: 95%;
@@ -542,7 +544,7 @@ padding-left:30px;
 
 .advertice__title {
     background: orange;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 22px;
     font-weight: bold;
     color: white;
@@ -553,7 +555,7 @@ padding-left:30px;
 }
 
 .advertice__text {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: normal;
     color: black;
@@ -578,7 +580,7 @@ padding-left:30px;
     display: flex;
     justify-content: flex-end;
     margin-left: 0px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-weight: normal;
     color: lightgray;
@@ -600,7 +602,7 @@ padding-left:30px;
 .swiper-slide {
     width: 100%;
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 18px;
     background: #282828;
     display: flex;
@@ -635,7 +637,7 @@ padding-left:30px;
 .swiper__h3,
 span {
     color: white;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-align: left;
     line-height: 37px;
     width: 350px;
@@ -644,13 +646,13 @@ span {
 .swiper__h2,
 .swiper__h3,
 span {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-weight: normal;
 }
 
 .swiper__h1 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 37px;
     margin-top: 100px;
@@ -661,7 +663,7 @@ span {
 }
 
 .swiper__btn1 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     size: 17px;
     background-color: orange;
     border-radius: 22px;
@@ -703,7 +705,7 @@ span {
 }
 
 .sale__h2 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: black;
     font-size: 22px;
     text-align: left;
@@ -714,7 +716,7 @@ span {
 }
 
 .sale__h1 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: black;
     font-size: 32px;
     font-weight: bold;
@@ -723,7 +725,7 @@ span {
 }
 
 .sale__link {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: orange;
     font-size: 17px;
     text-align: left;
@@ -757,7 +759,7 @@ span {
 }
 
 .brands__all {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: black;
     font-size: 22px;
     text-align: center;
@@ -787,7 +789,7 @@ span {
 
 .news__title {
     width: 100%;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 22px;
 }
 
@@ -821,7 +823,7 @@ span {
 .prod-post__p,
 .prod-mob-post__p {
     color: green;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: normal;
     font-size: 14px;
 }
@@ -829,7 +831,7 @@ span {
 .abat-about__item,
 .prod-about__item,
 .prod-mob-about__item {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 22px;
     font-weight: normal;
     text-decoration: none;
@@ -847,7 +849,7 @@ span {
 .abat-post__date,
 .prod-post__date,
 .prod-mob-post__date {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: normal;
     font-size: 14px;
     color: rgb(51, 50, 50);
@@ -857,7 +859,7 @@ span {
 .abat-about__text,
 .prod-about__text,
 .prod-mob-about__text {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: normal;
     font-size: 17px;
     color: black;
@@ -874,7 +876,7 @@ span {
 
 .news-btn_butn {
     width: 100%;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 17px;
     font-weight: normal;
     border: 2px solid black;
@@ -972,7 +974,7 @@ span {
 
 .recomendations__title {
     width: 100%;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: normal;
     font-size: 47px;
     color: black;
@@ -981,7 +983,7 @@ span {
 }
 
 .recomendations__text {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: normal;
     font-size: 17px;
     color: grey;
@@ -1015,7 +1017,7 @@ span {
 }
 
 .rational__logo-text {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: normal;
     font-size: 27px;
     color: black;
@@ -1026,7 +1028,7 @@ span {
 }
 
 .rational__title {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: normal;
     font-size: 42px;
     color: black;
@@ -1035,7 +1037,7 @@ span {
 }
 
 .rational__text {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: normal;
     font-size: 17px;
     color: grey;
@@ -1083,7 +1085,7 @@ span {
 }
 
 .abat__logo-text {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: lighter;
     font-size: 27px;
     color: white;
@@ -1095,7 +1097,7 @@ span {
 }
 
 .abat__title {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: normal;
     font-size: 42px;
     color: white;
@@ -1104,7 +1106,7 @@ span {
 }
 
 .abat__text {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: normal;
     font-size: 17px;
     width: 80%;
@@ -1143,7 +1145,7 @@ span {
 }
 
 .hicold__title {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: normal;
     font-size: 42px;
     color: black;
@@ -1152,7 +1154,7 @@ span {
 }
 
 .hicold__logo-text {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     padding-top: 60px;
     font-weight: normal;
     font-size: 27px;
@@ -1163,7 +1165,7 @@ span {
 }
 
 .hicold__text {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: normal;
     font-size: 17px;
     width: 60%;
@@ -1190,7 +1192,7 @@ span {
 }
 
 .about__title {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: normal;
     font-size: 42px;
     width: 100%;
@@ -1207,7 +1209,7 @@ span {
 .adds__title,
 .additional__title,
 .additional__best {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: normal;
     font-size: 42px;
 }
@@ -1219,7 +1221,7 @@ span {
     width: 100%;
     color: black;
     font-size: 17px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: normal;
 
 
@@ -1230,7 +1232,7 @@ span {
 }
 
 .group__title {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: normal;
     font-size: 27px;
     color: black;
@@ -1238,7 +1240,7 @@ span {
 
 .logotype__p,
 .group__text {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: normal;
     font-size: 17px;
     color: grey;
@@ -1247,7 +1249,7 @@ span {
 
 
 .group-data__p {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: normal;
     font-size: 17px;
     color: black;
@@ -1333,7 +1335,7 @@ span {
 }
 
 .column li {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: normal;
     font-size: 17px;
     color: white;
@@ -1341,7 +1343,7 @@ span {
 }
 
 .column__li1 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: lighter;
     font-size: 25px;
     color: grey;
@@ -1375,7 +1377,7 @@ span {
 .email__name,
 .email__adress,
 .adress__name {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: normal;
     font-size: 17px;
     color: white;
@@ -1437,7 +1439,7 @@ span {
 }
 
 .text__name {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: lighter;
     font-size: 25px;
     color: white;
@@ -1445,7 +1447,7 @@ span {
 
 .text__tex {
     margin-top: -10px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: normal;
     font-size: 17px;
     color: grey;
@@ -1468,7 +1470,7 @@ span {
 
 .studio__company {
     width: 100%;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: normal;
     font-size: 17px;
     color: white;
@@ -1514,7 +1516,7 @@ span {
 
     .navigation a {
         width:10%;
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-size: 14px;
         color: #ffffff;
 
@@ -1567,7 +1569,7 @@ span {
 
 
     .we__text {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-size: 12px;
         color: gray;
         padding-left: 5px;
@@ -1582,21 +1584,21 @@ span {
     .basket-img__ammount {
         padding-top: 7px;
         color: orange;
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-size: 12px;
     }
 
     .basket-total_sum {
         padding-top: 8px;
         color: gray;
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-size: 12px;
     }
 
     .basket-total_rub {
         margin-top: -5px;
         color: black;
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-size: 12px;
     }
 
@@ -1645,7 +1647,7 @@ span {
     .categories__knop {
         background-color: white;
         width: 100%;
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         color: gray;
         padding: 16px;
         padding-left: 5px;
@@ -1685,7 +1687,7 @@ span {
 
     .advertice__title {
         background: orange;
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-size: 22px;
         font-weight: bold;
         color: white;
@@ -1696,7 +1698,7 @@ span {
     }
 
     .advertice__text {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-size: 16px;
         font-weight: normal;
         color: black;
@@ -1736,7 +1738,7 @@ span {
     }
 
     .swiper__btn1 {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         size: 17px;
         background-color: orange;
         border-radius: 22px;
@@ -1780,7 +1782,7 @@ span {
     }
 
     .news__title {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
         color: black;
         font-size: 42px;
@@ -1793,7 +1795,7 @@ span {
 
     .news-btn_butn {
         width: 100%;
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-size: 14px;
         font-weight: normal;
         border: 2px solid black;
@@ -1803,7 +1805,7 @@ span {
 
     .abat-about__text,
     .prod-about__text {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
         font-size: 14px;
         color: black;
@@ -1831,7 +1833,7 @@ span {
     }
 
     .rational__logo-text {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
         font-size: 22px;
         color: black;
@@ -1842,7 +1844,7 @@ span {
     }
 
     .rational__title {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
         font-size: 32px;
         color: black;
@@ -1851,7 +1853,7 @@ span {
     }
 
     .rational__text {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
         font-size: 14px;
         color: grey;
@@ -1872,7 +1874,7 @@ span {
     }
 
     .abat__logo-text {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: lighter;
         font-size: 22px;
         color: white;
@@ -1884,7 +1886,7 @@ span {
     }
 
     .abat__title {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
         font-size: 32px;
         color: white;
@@ -1893,7 +1895,7 @@ span {
     }
 
     .abat__text {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
         font-size: 14px;
         width: 80%;
@@ -1936,7 +1938,7 @@ span {
     }
 
     .hicold__title {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
         font-size: 32px;
         color: black;
@@ -1945,7 +1947,7 @@ span {
     }
 
     .hicold__logo-text {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         padding-top: 50px;
         font-weight: normal;
         font-size: 22px;
@@ -1956,7 +1958,7 @@ span {
     }
 
     .hicold__text {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
         font-size: 14px;
         width: 50%;
@@ -1971,7 +1973,7 @@ span {
     }
 
     .about__title {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
         font-size: 32px;
         width: 100%;
@@ -1980,7 +1982,7 @@ span {
     .adds__title,
     .additional__title,
     .additional__best {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
         font-size: 32px;
     }
@@ -1992,7 +1994,7 @@ span {
         width: 90%;
         color: black;
         font-size: 14px;
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
 
 
@@ -2016,7 +2018,7 @@ span {
     }
 
     .group__title {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
         font-size: 22px;
         color: black;
@@ -2024,7 +2026,7 @@ span {
 
     .logotype__p,
     .group__text {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
         font-size: 14px;
         color: grey;
@@ -2032,7 +2034,7 @@ span {
     }
 
     .group-data__p {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
         font-size: 14px;
         color: black;
@@ -2066,7 +2068,7 @@ span {
     }
 
     .column li {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
         font-size: 14px;
         color: white;
@@ -2074,7 +2076,7 @@ span {
     }
 
     .column__li1 {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: lighter;
         font-size: 20px;
         color: grey;
@@ -2090,14 +2092,14 @@ span {
     .email__name,
     .email__adress,
     .adress__name {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
         font-size: 14px;
         color: white;
     }
 
     .text__name {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: lighter;
         font-size: 20px;
         color: white;
@@ -2105,7 +2107,7 @@ span {
 
     .text__tex {
         margin-top: -10px;
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
         font-size: 14px;
         color: grey;
@@ -2113,7 +2115,7 @@ span {
 
     .studio__company {
         width: 100%;
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
         font-size: 14px;
         color: white;
@@ -2160,7 +2162,7 @@ span {
 
     .navigation a {
         width:10%;
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-size: 12px;
         color: #ffffff;
         padding-left: 2px;
@@ -2172,7 +2174,7 @@ span {
     }
 
     .we__text {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-size: 12px;
         color: gray;
         padding-left: 10px;
@@ -2234,7 +2236,7 @@ span {
       .categories__knop {
           background-color: white;
           width: 100%;
-          font-family: 'Open Sans', sans-serif;
+          font-family: 'Roboto', sans-serif;
           color: gray;
           padding: 14px;
           padding-left: 5px;
@@ -2243,6 +2245,9 @@ span {
           cursor: pointer;
       
       }
+      .equipment {
+        display: none;
+    }
 
     .first-level_pos {
         margin-left: 60px;
@@ -2266,7 +2271,7 @@ span {
 
     .advertice__title {
         background: orange;
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-size: 14px;
         font-weight: bold;
         color: white;
@@ -2277,7 +2282,7 @@ span {
     }
 
     .advertice__text {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-size: 10px;
         font-weight: normal;
         color: black;
@@ -2317,7 +2322,7 @@ span {
     }
 
     .swiper__btn1 {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         size: 12px;
         background-color: orange;
         border-radius: 22px;
@@ -2338,7 +2343,7 @@ span {
     }
 
     .sale__h2 {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         color: black;
         font-size: 14px;
         text-align: left;
@@ -2349,7 +2354,7 @@ span {
     }
 
     .sale__h1 {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         color: black;
         font-size: 18px;
         font-weight: bold;
@@ -2364,7 +2369,7 @@ span {
     }
 
     .sale__link {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         color: orange;
         font-size: 12px;
         text-align: left;
@@ -2398,7 +2403,7 @@ span {
     }
 
     .brands__all {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         color: black;
         font-size: 14px;
         text-align: center;
@@ -2426,7 +2431,7 @@ span {
 
     .news__title {
         width: 100%;
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-size: 18px;
     }
 
@@ -2442,14 +2447,14 @@ span {
     .abat-post__p,
     .prod-post__p {
         color: green;
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
         font-size: 12px;
     }
 
     .abat-about__item,
     .prod-about__item {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-size: 20px;
         font-weight: normal;
         text-decoration: none;
@@ -2458,7 +2463,7 @@ span {
 
     .abat-post__date,
     .prod-post__date {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
         font-size: 12px;
         color: rgb(51, 50, 50);
@@ -2467,7 +2472,7 @@ span {
 
     .abat-about__text,
     .prod-about__text {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
         font-size: 14px;
         color: black;
@@ -2475,7 +2480,7 @@ span {
 
     .news-btn_butn {
         width: 100%;
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-size: 14px;
         font-weight: normal;
         border: 2px solid black;
@@ -2515,7 +2520,7 @@ span {
 
     .recomendations__title {
         width: 100%;
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
         font-size: 32px;
         color: black;
@@ -2524,7 +2529,7 @@ span {
     }
 
     .recomendations__text {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
         font-size: 14px;
         color: grey;
@@ -2546,7 +2551,7 @@ span {
     }
 
     .rational__logo-text {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
         font-size: 20px;
         color: black;
@@ -2557,7 +2562,7 @@ span {
     }
 
     .rational__title {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
         font-size: 32px;
         color: black;
@@ -2566,7 +2571,7 @@ span {
     }
 
     .rational__text {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
         font-size: 14px;
         color: grey;
@@ -2601,7 +2606,7 @@ span {
     }
 
     .abat__logo-text {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: lighter;
         font-size: 22px;
         color: white;
@@ -2613,7 +2618,7 @@ span {
     }
 
     .abat__title {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
         font-size: 28px;
         color: white;
@@ -2622,7 +2627,7 @@ span {
     }
 
     .abat__text {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
         font-size: 14px;
         width: 100%;
@@ -2670,7 +2675,7 @@ span {
     }
 
     .hicold__title {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
         font-size: 32px;
         color: black;
@@ -2679,7 +2684,7 @@ span {
     }
 
     .hicold__logo-text {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         padding-top: 60px;
         font-weight: normal;
         font-size: 18px;
@@ -2690,7 +2695,7 @@ span {
     }
 
     .hicold__text {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
         font-size: 14px;
         width: 60%;
@@ -2716,7 +2721,7 @@ span {
     }
 
     .about__title {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
         font-size: 32px;
         width: 100%;
@@ -2741,7 +2746,7 @@ span {
     .adds__title,
     .additional__title,
     .additional__best {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
         font-size: 32px;
     }
@@ -2753,14 +2758,14 @@ span {
         width: 100%;
         color: black;
         font-size: 14px;
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
 
 
     }
 
     .group__title {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
         font-size: 22px;
         color: black;
@@ -2768,7 +2773,7 @@ span {
 
     .logotype__p,
     .group__text {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
         font-size: 14px;
         color: grey;
@@ -2827,7 +2832,7 @@ span {
     }
 
     .column li {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
         font-size: 10px;
         color: white;
@@ -2841,7 +2846,7 @@ span {
     }
 
     .column__li1 {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: lighter;
         font-size: 12px;
         color: grey;
@@ -2857,7 +2862,7 @@ span {
     .email__name,
     .email__adress,
     .adress__name {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
         font-size: 10px;
         color: white;
@@ -2876,7 +2881,7 @@ span {
     }
 
     .text__name {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: lighter;
         font-size: 20px;
         color: white;
@@ -2889,7 +2894,7 @@ span {
 
     .text__tex {
         margin-top: -10px;
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
         font-size: 12px;
         color: grey;
@@ -2897,7 +2902,7 @@ span {
 
     .footer-stolovaya__company {
         width: 100%;
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
         font-size: 12px;
         color: white;
@@ -2949,7 +2954,7 @@ span {
     }
 
     .navigation a {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-size: 12px;
         color: #ffffff;
         margin-left: 2px;
@@ -2997,7 +3002,7 @@ span {
     }
 
     .we__text {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-size: 12px;
         color: gray;
         padding-left: 10px;
@@ -3040,7 +3045,7 @@ span {
       .categories__knop {
           background-color: white;
           width: 100%;
-          font-family: 'Open Sans', sans-serif;
+          font-family: 'Roboto', sans-serif;
           color: gray;
           padding: 14px;
           padding-left: 5px;
@@ -3049,7 +3054,9 @@ span {
           cursor: pointer;
       
       }
-
+      .equipment {
+        display: none;
+    }
     .first-level {
         display: flex;
         width: 100%;
@@ -3081,7 +3088,7 @@ span {
 
     .advertice__title {
         background: orange;
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-size: 18px;
         font-weight: bold;
         color: white;
@@ -3093,7 +3100,7 @@ span {
     }
 
     .advertice__text {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-size: 12px;
         font-weight: normal;
         color: black;
@@ -3144,7 +3151,7 @@ span {
     }
 
     .sale__h2 {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         color: black;
         font-size: 20px;
         text-align: left;
@@ -3155,7 +3162,7 @@ span {
     }
 
     .sale__h1 {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-size: 22px;
         font-weight: bold;
         padding-bottom: 25px;
@@ -3164,7 +3171,7 @@ span {
     }
 
     .sale__link {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         color: orange;
         font-size: 17px;
         text-align: left;
@@ -3199,7 +3206,7 @@ span {
     }
 
     .brands__all {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         color: black;
         font-size: 22px;
         text-align: center;
@@ -3317,7 +3324,7 @@ span {
     }
 
     .rational__logo-text {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
         font-size: 22px;
         color: black;
@@ -3328,7 +3335,7 @@ span {
     }
 
     .rational__title {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
         font-size: 28px;
         color: black;
@@ -3337,7 +3344,7 @@ span {
     }
 
     .rational__text {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
         font-size: 14px;
         color: grey;
@@ -3376,7 +3383,7 @@ span {
     }
 
     .abat__logo-text {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: lighter;
         font-size: 22px;
         color: white;
@@ -3388,7 +3395,7 @@ span {
     }
 
     .abat__title {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
         font-size: 28px;
         color: white;
@@ -3397,7 +3404,7 @@ span {
     }
 
     .abat__text {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
         font-size: 14px;
         width: 100%;
@@ -3432,7 +3439,7 @@ span {
     }
 
     .hicold__title {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
         font-size: 32px;
         color: black;
@@ -3441,7 +3448,7 @@ span {
     }
 
     .hicold__logo-text {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         padding-top: 60px;
         font-weight: normal;
         font-size: 18px;
@@ -3452,7 +3459,7 @@ span {
     }
 
     .hicold__text {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
         font-size: 14px;
         width: 60%;
@@ -3480,7 +3487,7 @@ span {
     .adds__title,
     .additional__title,
     .additional__best {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
         font-size: 32px;
     }
@@ -3492,14 +3499,14 @@ span {
         width: 100%;
         color: black;
         font-size: 14px;
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
 
 
     }
 
     .group__title {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
         font-size: 22px;
         color: black;
@@ -3507,7 +3514,7 @@ span {
 
     .logotype__p,
     .group__text {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
         font-size: 14px;
         color: grey;
@@ -3558,7 +3565,7 @@ span {
     }
 
     .column li {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
         font-size: 10px;
         color: white;
@@ -3572,7 +3579,7 @@ span {
     }
 
     .column__li1 {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: lighter;
         font-size: 12px;
         color: grey;
@@ -3588,7 +3595,7 @@ span {
     .email__name,
     .email__adress,
     .adress__name {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
         font-size: 10px;
         color: white;
@@ -3607,7 +3614,7 @@ span {
     }
 
     .text__name {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: lighter;
         font-size: 20px;
         color: white;
@@ -3620,7 +3627,7 @@ span {
 
     .text__tex {
         margin-top: -10px;
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
         font-size: 12px;
         color: grey;
@@ -3628,7 +3635,7 @@ span {
 
     .studio__company {
         width: 100%;
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
         font-size: 12px;
         color: white;
@@ -3983,30 +3990,126 @@ span {
     }
 
     .equipment_pos {
-        margin-top: 20px;
+        margin-top: 15px;
     }
 
     .equipment {
-        display: flex;
-        justify-content: space-around;
+        position: fixed;
         width: 100%;
         height: 40px;
-        background-color: #e7e7e7;
-        position: fixed;
-        z-index: 283572;
-    }
-
-    .equipment__name {
-        padding-left: 40px;
-    }
-
-    .equipment__name,
-    .equipment__arrow {
-        font-family: 'Open Sans', sans-serif;
+         background-color: lightgrey;
+        display: block;
+        text-align: center;
+        -webkit-transition: 0.15s ease;
+        transition: 0.15s ease;
+        z-index: 5000000000000000;
+      }
+      .equipment.active .equipment__arrow {
+        -webkit-transform: rotate(-45deg) translate(-5px, -5px);
+                transform: rotate(45deg) translate(-5px, -5px);
+      }
+      .equipment.active .equipment__arrow:before {
+        -webkit-transform: translate(10px, 0);
+                transform: translate(10px, 0);
+      }
+      .equipment.active .equipment__arrow:after {
+        -webkit-transform: rotate(-90deg) translate(10px, 0);
+                transform: rotate(90deg) translate(10px, 0);
+      }
+      .equipment.active .list {
+        opacity: 1;
+        height:100%;
+      
+      }
+      
+      .equipment__arrow {
+        padding-right:10px;
+        width: 13px;
+        height: 13px;
+        display: inline-block;
+        position: relative;
+        bottom: -5px;
+        left: -10px;
+        -webkit-transition: 0.4s ease;
+        transition: 0.4s ease;
+       
+        text-align: left;
+        -webkit-transform: rotate(45deg);
+                transform: rotate(-45deg);
+        float: right;
+      }
+      .equipment__arrow:before, .equipment__arrow:after {
+        position: absolute;
+        content: "";
+        display: inline-block;
+        width: 12px;
+        height: 3px;
+        background-color: black;
+        -webkit-transition: 0.4s ease;
+        transition: 0.4s ease;
+      }
+      .equipment__arrow:after {
+        position: absolute;
+        -webkit-transform: rotate(-90deg);
+                transform: rotate(90deg);
+        top: -5px;
+        left: 5px;
+      }
+      
+      .equipment__text {
+       font-family: 'Roboto', sans-serif;
         font-size: 14px;
-        color: rgb(51, 49, 49);
-    }
-
+        display: block;
+        text-align: left;
+        padding:10px;
+        padding-left:10px;
+        cursor: pointer;
+        color: black;
+        -webkit-transition: 0.15s ease;
+        transition: 0.15s ease;
+      }
+      
+      .list_pos {
+           margin-top: -17px;
+      }
+      .list {
+        width:100%;
+        padding: 0;
+        height: 100%;
+        opacity: 0;
+        -webkit-transition: 0.4s ease;
+        transition: 0.4s ease;
+        z-index: 5000000000000050;
+       
+        
+        
+        
+      }
+      
+      .list li {
+        list-style-type: none;
+        margin: 0 auto;
+        padding: 4px 12px;
+        text-align: center;
+        cursor: pointer;
+        border-bottom: 0.5px solid lightgrey;
+        background: white;
+        z-index: 5000000000000050;
+        
+       
+       
+      }
+      .list a {
+        line-height: 37px;
+        color:grey;
+        
+        
+      }
+      .list a:hover {
+        color: orange;
+        text-decoration:none;
+      }
+    
     .content_wrapper {
 
         width: 100%;
@@ -4305,7 +4408,7 @@ span {
 
     .recomendations__title {
         width: 100%;
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
         font-size: 37px;
         color: black;
@@ -4314,7 +4417,7 @@ span {
     }
 
     .recomendations__text {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
         font-size: 17px;
         color: grey;
@@ -4340,7 +4443,7 @@ span {
     }
 
     .rational__title {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
         font-size: 32px;
         color: black;
@@ -4349,7 +4452,7 @@ span {
     }
 
     .rational__text {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
         font-size: 17px;
         color: grey;
@@ -4384,7 +4487,7 @@ span {
     }
 
     .abat__logo-text {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: lighter;
         font-size: 27px;
         color: white;
@@ -4396,7 +4499,7 @@ span {
     }
 
     .abat__title {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
         font-size: 22px;
         color: white;
@@ -4406,7 +4509,7 @@ span {
     }
 
     .abat__text {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
         font-size: 14px;
         width: 97%;
@@ -4435,7 +4538,7 @@ span {
     }
 
     .hicold__title {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
         font-size: 22px;
         color: black;
@@ -4444,7 +4547,7 @@ span {
     }
 
     .hicold__text {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
         font-size: 17px;
         width: 80%;
@@ -4459,7 +4562,7 @@ span {
     }
 
     .hicold__logo-text {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         padding-top: 60px;
         font-weight: normal;
         font-size: 20px;
@@ -4470,7 +4573,7 @@ span {
     }
 
     .hicold__text {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
         font-size: 14px;
         width: 50%;
@@ -4497,7 +4600,7 @@ span {
     }
 
     .about__title {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
         font-size: 32px;
         width: 100%;
@@ -4521,7 +4624,7 @@ span {
     .adds__title,
     .additional__title,
     .additional__best {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
         font-size: 32px;
     }
@@ -4533,7 +4636,7 @@ span {
         width: 100%;
         color: black;
         font-size: 14px;
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
 
 
@@ -4545,7 +4648,7 @@ span {
     }
 
     .group-mob__title {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
         font-size: 22px;
         color: black;
@@ -4553,7 +4656,7 @@ span {
 
     .logotype-mob__p,
     .group-mob__text {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
         font-size: 14px;
         color: grey;
@@ -4562,7 +4665,7 @@ span {
 
     .group-mob-data__p,
     ol li {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
         font-size: 14px;
         color: black;
@@ -4620,7 +4723,7 @@ span {
         flex-wrap: wrap;
         flex-direction: column;
         background-color: #282828;
-        transition: 1.5s;
+
     }
 
     .footer__news {
@@ -4640,14 +4743,14 @@ span {
     }
 
     .footer__news a {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-size: 12px;
         color: white;
     }
 
     label {
         width: 96%;
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-size: 14px;
         line-height: 37px;
         color: white;
@@ -4753,7 +4856,7 @@ span {
     }
 
     .text__name {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: lighter;
         font-size: 20px;
         color: white;
@@ -4766,7 +4869,7 @@ span {
 
     .text__tex {
         margin-top: -10px;
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
         font-size: 12px;
         color: grey;
