@@ -1,4 +1,4 @@
-/* Десктоп */
+
 
 html,
 body {
@@ -426,6 +426,8 @@ input {
     display: flex;
     z-index: 4;
     justify-content: space-between;
+    
+  
 
 
 
@@ -3035,7 +3037,9 @@ span {
          padding-left:5px;
         flex-direction:column;
       }
-      
+      .categories-item {
+          overflow: scroll;
+      }
       .categories__image {
       padding-left:30px;
       }
@@ -3885,7 +3889,7 @@ span {
         outline: none
     }
 
-    .search-mobile__content {
+    .search-mobile {
         position: relative;
         display: inline-block;
     }
@@ -3897,7 +3901,7 @@ span {
         min-width: 160px;
         overflow: auto;
         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-        z-index: 1;
+        z-index: 6486797645745745744774574574579;
     }
 
 
@@ -3969,15 +3973,67 @@ span {
 
     .mob-mobile_pos {
         margin-top: 15px;
+        margin-left:10px;
     }
 
-    .mob-mobile__img {
-        width: 25px;
-        height: 30px;
 
+            
+            .mob-mobile__dropbtn {
+                background: url(/img/phone-mob.png) white no-repeat;
+                background-size: 25px;
+                padding: 16px;
+                font-size: 16px;
+                border: none;
+                cursor: pointer;
+              }
+              
+            
+              .mob-mobile__dropbtn:focus {
+                outline: none;
+            }
+              
+              /* The container <div> - needed to position the dropdown content */
+              .mob-mobile {
+                position: relative;
+                display: flex;
+              }
+              .mob-mobile__content_pos {
+                 margin-left: -300px;
+                  margin-top:10px;
+              }
+              /* Dropdown Content (Hidden by Default) */
+              .mob-mobile__content {
+               width:367px;
+        
+                display: none;
+                background-color: white;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 47378899;
+                  list-style:none;
+              }
+              
+              /* Links inside the dropdown */
+              .mob-mobile__content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+              
+                
+              }
+              .mob-mobile__content li {
+                  width:100%;
+              }
+          
+              .mob-mobile__content-underline {
+                  border-bottom: 0.5px solid orange;
+                  
+              }
 
-
-    }
+              
+              /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+              .show {display:block;}
 
     .search-mobile_pos {
         margin-top: 15px;
