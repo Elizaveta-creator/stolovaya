@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-   <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+  
+    <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js">
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -151,15 +152,18 @@
 
 
 
-
-                <button class="mob-mobile mob-mobile_pos">
-                    <img class="mob-mobile__img" src="img/phone-mob.png" alt="card-img">
-                </button>
-
-                <button class="basket-mobile basket-mobile_pos">
-                    <p class="basket-mobile__ammount">0</p>
-                    <img class="basket-mobile__img" src="img/card.png" alt="card-img">
-                </button>
+                <div class="mob-mobile mob-mobile_pos">
+                    <button onclick="myFunction()" class="mob-mobile__dropbtn"></button>
+                    <ul id="myDropdown" class="mob-mobile__content mob-mobile__content_pos">
+                     <li><a href="teplovoye">8 800 333-88-31</a></li>
+                                        <li class="mob-mobile__content-underline"><a href="teplovoye">Звонок бесплатный</a></li>
+                                        <li><a href="teplovoye">Пн-Пт</a></li>
+                                       <li class="mob-mobile__content-underline"><a href="teplovoye">09:00 до 18:00</a></li>
+                                        <li class="mob-mobile__content-underline"><a href="teplovoye">info@stolovay.ru</a></li>
+                                        <li><a href="teplovoye">109428,Москва,</a></li>
+                                        <li><a href="teplovoye">Большая Семеновская 43с2 </a></li>
+                    </ul>
+                  </div>
             </div>
 
 
@@ -1014,6 +1018,9 @@
     <script src="js/mobile-menu-toggle.js"></script>
     <script src="js/mobile-searcher.js"></script>
     <script src="js/equipment-toggle.js"></script>
+    <script src="js/mobile-contacts-toggle.js"></script>
+
+    
 </body>
 
 </html>
