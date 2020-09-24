@@ -8,7 +8,7 @@ body {
 }
 
 .header__wrapper {
-    max-width: 1920px;
+    
     width: 100%;
 
 }
@@ -35,7 +35,7 @@ body {
     display: flex;
     width: 100%;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     background-color: #34a853;
     padding: 15px;
     padding-top: 15px;
@@ -48,6 +48,7 @@ body {
     display: flex;
     flex-direction: row;
     width:100%;
+    justify-content: space-between;
 }
 
 .navigation li,
@@ -378,7 +379,7 @@ input {
 }
 
 .content_wrapper {
-    max-width: 1920px;
+    
     width: 100%;
     margin-top: 35px;
 }
@@ -965,8 +966,9 @@ span {
     flex-direction: column;
     justify-content: flex-end;
 }
-
-
+.recomendations_pos {
+    margin-top: 50px;
+}
 .recomendations {
     width: 100%;
     display: flex;
@@ -1493,7 +1495,7 @@ span {
 @media all and (min-width: 1360px) and (max-width: 1920px) {
 
     .header__wrapper {
-        max-width: 1360px;
+        
         width: 100%;
 
     }
