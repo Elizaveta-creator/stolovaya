@@ -2,7 +2,7 @@
 
 html,
 body {
-
+ width:100%;
     background: #f3f2f2;
     justify-content: center;
 }
@@ -67,7 +67,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     color: #ffffff;
-    margin-left: 5px;
+    padding-left: 5px;
     padding-left: 5px;
     text-decoration: none;
 }
@@ -84,15 +84,17 @@ body {
 .navigation__mobilephone {
     display: none;
 }
-
-.header__content {
-    margin-top: 60px;
+.header-content_pos {
+    margin-top: 60px;  
+}
+.header-content {
+  
     display: flex;
     width: 100%;
     justify-content: space-around;
     background-color: #e7e5e6;
     position: fixed;
-    z-index: 19;
+    z-index: 1666900;
 
 }
 
@@ -112,6 +114,7 @@ body {
 
 .we_pos {
     margin-left: -250px;
+    margin-top: 20px;
 }
 
 .we {
@@ -119,7 +122,7 @@ body {
     flex-wrap: wrap;
     flex-direction: row;
     width: 25%;
-    margin-top: 20px;
+    
     justify-content: flex-start;
 }
 
@@ -139,6 +142,7 @@ body {
 
 .basket_pos {
     margin-left: -600px;
+    margin-right: 20px;
 }
 
 .buttons-mob {
@@ -152,7 +156,7 @@ body {
     width: 7%;
     height: 100%;
     background-color: #e7e5e6;
-    margin-right: 20px;
+   
 }
 
 
@@ -197,7 +201,7 @@ body {
 
 
 .basket-total_rub {
-    margin-top: -5px;
+    padding-top: -5px;
     color: black;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
@@ -365,7 +369,6 @@ input {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    margin-bottom: 0;
     max-width: 100%;
 }
 
@@ -378,9 +381,9 @@ input {
     display: none;
 }
 
-.content_wrapper {
+.content_pos {
     
-    width: 100%;
+
     margin-top: 35px;
 }
 
@@ -401,24 +404,24 @@ input {
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     background: white;
     box-shadow: gray;
     position: fixed;
     transition: top .5s;
     box-shadow: 0 0 10px 5px rgb(180, 176, 176);
-    z-index: 5645740;
+   
     
 }
 
 .variants.remove {
     top: -130px;
-    z-index: 19;
+    z-index: 9;
 }
 
 .variants.show-menu {
     top: 0;
-    z-index: 18;
+    z-index: 8;
 }
 
 
@@ -426,7 +429,9 @@ input {
 .categories-item {
     display: flex;
     z-index: 4;
-    justify-content: space-between;
+    justify-content: space-around;
+    width:95%;
+    
     
   
 
@@ -442,7 +447,7 @@ input {
 }
 
 .categories__image {
-padding-left:30px;
+padding-left:20px;
 }
 
 .dropdown-menu {
@@ -462,7 +467,7 @@ padding-left:30px;
     color: gray;
     padding: 16px;
     padding-left: 5px;
-    font-size: 17px;
+    font-size: 15px;
     border: none;
     cursor: pointer;
 
@@ -589,10 +594,11 @@ padding-left:30px;
     color: lightgray;
     padding-right: 10px;
 }
-
-.content__slider {
-    width: 42%;
-    margin-left: 20px;
+.content-slider_pos {
+    margin-left: 0px;
+}
+.content-slider {
+    width: 100%;
 
 }
 
@@ -602,7 +608,7 @@ padding-left:30px;
 
 }
 
-.swiper-slide {
+.swiper {
     width: 100%;
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -624,15 +630,17 @@ padding-left:30px;
 .swiper__img {
     padding-top: 10%;
 }
-
+.swiper__slider1_pos {
+   margin-left: 160px;
+    margin-top: 70px;
+}
 .swiper__slider1 {
     width: 100%;
-
     flex-direction: column;
     justify-content: flex-start;
-    margin-left: 160px;
+
     height: 450px;
-    margin-top: 70px;
+    
 }
 
 .swiper__h1,
@@ -1123,7 +1131,7 @@ span {
 .abat__img {
     width: 55%;
     margin-left: -300px;
-    margin-top: -350px;
+    margin-top: -250px;
 }
 
 .hicold_pos {
@@ -1144,8 +1152,8 @@ span {
 
 .hicold__img {
     width: 50%;
-    margin-left: 650px;
-    margin-top: -330px;
+    margin-left: 640px;
+    margin-top: -230px;
 }
 
 .hicold__title {
@@ -1398,7 +1406,7 @@ span {
 
 .info {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: row;
     width: 100%;
     background-color: #1f1f1f;
@@ -1417,6 +1425,10 @@ span {
     flex-direction: row;
 
 
+}
+.footer-stolovaya__logo_pos {
+    margin-top: 15px;
+    margin-left: -110px;
 }
 
 .footer-stolovaya_logo {
@@ -1532,7 +1544,7 @@ span {
         margin-left: -40px;
     }
 
-    .header__content {
+    .header-content {
         margin-top: 60px;
         display: flex;
         width: 100%;
@@ -1634,12 +1646,16 @@ span {
     }
 
 
-    
+    .categories-item {
+        width:95%;
+        
+    }
     .categories {
       padding-top:20px;
       justify-content: center;
-       padding-left:20px;
+       padding-left:10px;
       flex-direction:column;
+     
     }
     
     .categories__image {
@@ -1718,15 +1734,18 @@ span {
     .swiper-container {
         height: 500px;
     }
-
+    .swiper-slider1_pos {
+       margin-left: 290px;
+       margin-top: 70px; 
+    }
     .swiper__slider1 {
         width: 100%;
 
         flex-direction: column;
         justify-content: flex-start;
-        margin-left: 290px;
+        
         height: 450px;
-        margin-top: 70px;
+        
     }
 
     .swiper__h1,
@@ -1909,11 +1928,7 @@ span {
         padding-left: 260px;
     }
 
-    .abat__img {
-        width: 65%;
-        margin-left: -240px;
-        margin-top: -240px;
-    }
+
 
     .hicold_pos {
 
@@ -1970,11 +1985,7 @@ span {
         padding-left: 40px;
     }
 
-    .hicold__img {
-        width: 50%;
-        margin-left: 460px;
-        margin-top: -150px;
-    }
+
 
     .about__title {
         font-family: 'Roboto', sans-serif;
@@ -2101,7 +2112,10 @@ span {
         font-size: 14px;
         color: white;
     }
-
+    .footer-stolovaya__logo_pos {
+        margin-top: 15px;
+        margin-left: -270px;
+    }
     .text__name {
         font-family: 'Roboto', sans-serif;
         font-weight: lighter;
@@ -2215,6 +2229,7 @@ span {
 
     .search-find {
         width: 35%;
+
     }
 
     .content_wrapper {
@@ -2223,9 +2238,16 @@ span {
         margin-top: 35px;
     }
 
-    
+    .variants {
+       justify-content: center;
+    }
+    .categories-item 
+    {
+    width:90%;
+    overflow: scroll;
+}
     .categories {
-        padding-top:20px;
+        padding-top:40px;
         justify-content: center;
          padding-left:10px;
         flex-direction:column;
@@ -2255,7 +2277,7 @@ span {
 
     .first-level_pos {
         margin-left: 60px;
-        margin-top: 195px;
+        margin-top: 295px;
 
     }
 
@@ -2308,10 +2330,13 @@ span {
     .swiper__h1,
     .swiper__h2,
     .swiper__h3 {
-        padding-top: -30px;
+        padding-top: -50px;
         padding-left: 120px;
     }
+    .swiper__h1_pos {
 
+       margin-top: 50px;
+    }
     .swiper__btn1_pos {
         margin-left: 60px;
     }
@@ -2387,7 +2412,7 @@ span {
     }
 
     .content__brands {
-        width: 90%;
+        width: 85%;
         background: white;
         height: 110px;
         display: flex;
@@ -2616,7 +2641,7 @@ span {
         color: white;
         text-transform: uppercase;
         font-size: 20px;
-        padding-left: 150px;
+        padding-left: 180px;
         padding-top: 50px;
         width: 100%;
     }
@@ -2626,7 +2651,7 @@ span {
         font-weight: normal;
         font-size: 28px;
         color: white;
-        padding-left: 150px;
+        padding-left: 180px;
         width: 100%;
     }
 
@@ -2638,13 +2663,13 @@ span {
         text-align: left;
         color: grey;
         padding-top: 15px;
-        padding-left: 150px;
+        padding-left: 180px;
     }
 
     .abat__img {
-        width: 62%;
-        margin-left: -170px;
-        margin-top: -220px;
+        width: 52%;
+        margin-left: -190px;
+        margin-top: -190px;
     }
 
     .prod-mob {
@@ -2674,7 +2699,7 @@ span {
 
     .hicold__img {
         width: 53%;
-        margin-left: 330px;
+        margin-left: 400px;
         margin-top: -190px;
     }
 
@@ -2903,7 +2928,10 @@ span {
         font-size: 12px;
         color: grey;
     }
-
+    .footer-stolovaya__logo_pos {
+        margin-left: -70px;
+        margin-top: -10px;
+    }
     .footer-stolovaya__company {
         width: 100%;
         font-family: 'Roboto', sans-serif;
@@ -2971,7 +2999,7 @@ span {
         padding-right: 15px;
     }
 
-    .header__content {
+    .header-content {
         margin-top: 50px;
         display: flex;
         width: 100%;
@@ -3107,16 +3135,16 @@ span {
 
     .advertice__text {
         font-family: 'Roboto', sans-serif;
-        font-size: 12px;
-        font-weight: normal;
-        color: black;
-        text-decoration: none;
-        padding-left: 20px;
-        border-bottom: 1px solid lightgray;
-        padding-top: 21.5px;
-        padding-bottom: 5px;
-        line-height: 0px;
-        align-items: center;
+    font-size: 12px;
+    font-weight: normal;
+    color: black;
+    text-decoration: none;
+    padding-left: 20px;
+    border-bottom: 1px solid lightgray;
+    padding-top: 19.5px;
+    padding-bottom: 5px;
+    line-height: 0px;
+    align-items: center;
     }
 
     .swiper__h1,
@@ -3422,7 +3450,7 @@ span {
 
     .abat__img {
         width: 87%;
-        margin-left: -180px;
+        margin-left: -240px;
         margin-top: -220px;
     }
 
@@ -3439,9 +3467,9 @@ span {
     }
 
     .hicold__img {
-        width: 53%;
-        margin-left: 240px;
-        margin-top: -140px;
+        width: 48%;
+        margin-left: 310px;
+        margin-top: -120px;
     }
 
     .hicold__title {
@@ -3613,7 +3641,10 @@ span {
         margin-left: 20px;
 
     }
-
+    .footer-stolovaya__logo_pos {
+        margin-top: -8px;
+        margin-left: -90px;
+    }
     .text_pos {
         margin-top: 70px;
         margin-left: -290px;
@@ -3679,7 +3710,7 @@ span {
         display: none;
     }
 
-    .header__content {
+    .header-content {
         display: flex;
     }
 
@@ -3725,7 +3756,7 @@ span {
         z-index: 19999999999999;
     }
 
-    .header__content {
+    .header-content {
         margin-top: 15px;
 
         background: white;
@@ -4122,7 +4153,7 @@ span {
         display: block;
         text-align: left;
         padding:10px;
-        padding-left:10px;
+        padding-left:30px;
         cursor: pointer;
         color: black;
         -webkit-transition: 0.15s ease;
@@ -4188,7 +4219,7 @@ span {
 
     .first-level_pos {
         margin-left: 20px;
-        margin-top: 350px;
+        margin-top: 80px;
     }
 
     .first-level {
@@ -4201,6 +4232,7 @@ span {
     .advertice-pos {
         display: none;
     }
+
 
     .content__slider {
         width: 100%;
@@ -4216,7 +4248,7 @@ span {
 
     }
 
-    .swiper-slide {
+    .swiper {
         width: 100%;
         text-align: center;
         font-size: 18px;
@@ -4581,7 +4613,7 @@ span {
 
     .abat__img {
         width: 52%;
-        margin-left: -120px;
+        margin-left: -160px;
         margin-top: -220px;
     }
 
@@ -4617,7 +4649,7 @@ span {
 
     .hicold__img {
         width: 50%;
-        margin-left: 330px;
+        margin-left: 430px;
         margin-top: -160px;
     }
 
@@ -4680,13 +4712,18 @@ span {
         flex-wrap: wrap;
 
     }
-
+    .about__title,
+    .additional__title,
+    .additional__best {
+        padding-left:10px;
+    }
     .adds__title,
     .additional__title,
     .additional__best {
         font-family: 'Roboto', sans-serif;
         font-weight: normal;
         font-size: 32px;
+        
     }
 
     .about__text,
@@ -4695,9 +4732,10 @@ span {
     .additional__p {
         width: 100%;
         color: black;
-        font-size: 14px;
+        font-size: 16px;
         font-family: 'Roboto', sans-serif;
         font-weight: normal;
+        padding-left:20px;
 
 
     }
@@ -4896,11 +4934,14 @@ span {
         content: "\2212";
 
     }
-
+    .footer-stolovaya__logo_pos {
+         margin-left: -220px;
+         margin-top: -10px;
+    }
     .footer-stolovaya__logo {
         height: 50px;
         width: 50px;
-        margin-left: -180px;
+       
     }
 
     .footer-stolovaya_pos {
